@@ -1,0 +1,371 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #22212C;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #837E9F;
+}
+
+main .main-div {
+  margin: 3% 3% 3% 3%;
+  display: flex;
+}
+
+div .left-bar {
+  margin-right: 60px;
+}
+
+div .profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  max-width: 348px;
+  max-height: 292px;
+  margin-bottom: 30px;
+}
+
+.profile-img {
+  width: 128px;
+  height: 128px;
+  border: 2px solid #00FF00;
+  border-radius: 50%;
+  margin-top: 32px;
+  margin-bottom: 30px;
+}
+
+.profile h1 {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 29px;  
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.profile p {
+  margin-top: 0;
+  margin-bottom: 39px;
+}
+
+div .profile-info {
+  background-color: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  width: 348px; 
+  height: 348px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 6px;
+  margin-bottom: 30px;
+}
+
+div .profile-info p {
+  height: 24px;
+}
+
+div .div-info {
+  display: flex;
+  align-items: center;
+  margin: 10px 10px 10px 30px;
+  height: 24px;
+}
+.img-info {
+  color: #837E9F;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  background-size: contain;
+}
+
+div .div-info p {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+div .tech {
+  background-color: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  width: 348px;
+  height: 208px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+div .tech p {
+  margin: 30px 0 20px 20px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+div .tech-tag {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+div .tech-tag p {
+  background-color: #CB92B1;
+  color: #000;
+  border-radius: 50px;
+  width: 90px;
+  height: 24px;
+  margin: 0 0 20px 0;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div .div-exp {
+  background-color: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  width: 348px;
+  height: 349px;  
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+div .div-exp h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  margin: 30px 0 20px 20px;
+}
+
+div .exp {
+  margin-left: 40px;
+}
+
+div .exp1 h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  margin: 15px 0 10px 0;
+}
+
+div .exp1 p {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 5px 0 5px 14px;
+}
+
+div .div-learning {
+  background-color: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  width: 348px;
+  height: 352px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  
+}
+
+div .div-learning h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  margin: 30px 0 20px 20px;
+}
+
+div .learning h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  margin: 15px 0 10px 0;
+}
+
+div .learning {
+  margin-left: 40px;
+}
+
+div .learning p {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 5px 0 5px 14px;
+}
+
+div .div-my-projects {
+  background-color: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  width: 952px;
+  height: 86px; 
+  display: grid;
+  margin-bottom: 30px;
+}
+
+div .my-projects {
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+div .container-folders {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+div .div-folders {
+  background-color: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 461px;
+  height: 186px;
+}
+
+div .div-folder {
+  display: flex;
+  margin: 20px 0 20px 30px;
+}
+
+div .folders-1 h3 {
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+div .folders-1 P {
+  margin: 0 0 0 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+
+div .folders-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 30px 0 30px;
+}
+
+div .folders-2 h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+div .null {
+  width: 45%;
+}
+
+div .circle {
+  width: 12px;
+  height: 12px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background-color: #E7DE79;
+}
+
+div .div-recent {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+div .recent {
+  background-color: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  width: 952px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+}
+
+div .recent h3 {
+  margin-left: 30px;
+}
+
+div .div-status {
+  display: flex;
+}
+
+div .status {
+  background-color: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  width: 952px;
+  height: 201px;
+  display: flex;
+}
+
+div .status-photo {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  margin: 32px 20px 0 30px;
+}
+
+div .status-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div .status-text h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+div .status-text h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 5px;
+  margin-bottom: 28px;
+}
+
+div .status-text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 11px;
+}
+
+div .status-tags {
+  display: flex;
+}
+
+div .status-tags p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 30px;
+}
+
+
